@@ -1,0 +1,103 @@
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background-color: #422057FF;
+    display: flex;
+    max-width: 1100px;
+    margin: 3rem auto;
+}
+
+.intro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.intro-name{
+    font-size: 6rem;
+    text-align: left;
+    color :rgb(241, 241, 241);
+    margin-left: -5px;
+}
+
+.intro h3{
+    text-align: left;
+    font-size: 4rem;
+    color: rgb(187, 187, 187);
+}
+
+.intro h2{
+    color: #FCF951FF;
+    text-align: left;
+    word-spacing: 4px
+}
+
+.intro h2{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.p__opensans{
+    margin-top: 1rem;
+}
+
+.intro p{
+    text-align: left;
+    color: rgb(187, 187, 187);
+    max-width: 540px;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif
+}
+
+.me-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15%;
+    overflow-y: hidden;
+}
+
+.me-img img{
+    width: 70%;
+}
+
+@media screen and (max-width: 850px){
+    .intro-name{
+        font-size: 4rem;
+    }
+
+    .me-img{
+        margin-top: -10%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    .intro{
+        padding: 0 2rem;
+    }
+
+    .intro h2{
+        font-size: 1rem;
+    }
+    .intro h3{
+        font-size: 2rem;
+    }
+    .p__opensans{
+
+    }
+}
+
+@media screen and (max-width: 380px){
+}

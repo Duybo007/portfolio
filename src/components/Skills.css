@@ -1,0 +1,148 @@
+.skills{
+    height: 100%;
+    width: 100vw;
+    max-width: 1100px;
+    margin: 0 auto 5rem auto;
+    
+    padding: 2rem;
+}
+
+.skills h3{
+    font-size: 7rem;
+    color: #FCF951FF;
+    font-family: 'Cormorant Upright', serif;
+    position: relative;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.skills h3::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 15%;
+  left: 0;
+  background-color: #FCF951FF;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.skills h3:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+
+.skills-list h2{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(187, 187, 187);
+  margin: 1.5rem 0;
+}
+
+.skills p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    color: rgb(187, 187, 187);
+    max-width: 540px;
+    margin-right: 1rem;
+    font-family: 'Open Sans', sans-serif
+}
+
+.skills-list-container{
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+
+.container {
+  width: 200px;
+  height: 200px;
+  perspective: 800px;
+}
+
+.container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card {
+  height: 200px;
+  width:200px;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.front {
+  background-color: white;
+}
+
+.front img{
+  width: 80%;
+}
+
+.front p{
+  margin-right: 0;
+  color: #422057FF;
+}
+
+.back {
+  background-color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  text-align: center;
+}
+
+.back h1{
+  color: #422057FF;
+  font-family: 'Cormorant Upright', serif;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .container{
+    width: 150px;
+    height: 200px;
+  }
+
+  .card{
+    width: 150px;
+    height: 200px
+  }
+
+  .front, .back{
+    border-radius: 15px;
+  }
+
+  .front, .back h1, p{
+    font-size: 1rem;
+  }  
+}
