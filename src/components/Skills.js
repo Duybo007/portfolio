@@ -13,7 +13,7 @@ function Skills({directionLeft}) {
             whileInView={{opacity : 1, y : 0 }}
             transition={{duration: 1}}
             viewport={{once : true}}
-        >My Skills.</motion.h3>
+        >What I Can Do.</motion.h3>
         
         <motion.div 
         className='skills-list'>

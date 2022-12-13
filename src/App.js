@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       
       <Navbar/>
-      <section id='hero'>
+      <section id='top'>
         <Hero/>
       </section>
 

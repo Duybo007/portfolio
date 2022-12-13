@@ -12,20 +12,22 @@ function Hero() {
     delaySpeed: 2000,
     })
   return (
-    <motion.div 
-    initial={{
-        opacity: 0,
-        scale: 0.5
-    }}
-    animate={{
-        opacity: 1,
-        scale: 1
-    }}
-    transition={{
-        duration: 1.5
-    }}
+    <div 
+    
     className='hero'>
-        <div className='intro'>
+        <motion.div
+        initial={{
+            opacity: 0,
+            scale: 0.5
+        }}
+        animate={{
+            opacity: 1,
+            scale: 1
+        }}
+        transition={{
+            duration: 1.5
+        }}
+        className='intro'>
             <h2>Hi, my name is</h2>
             <h1 className='intro-name'>Duy Ngo.</h1>
             <h3>
@@ -33,8 +35,13 @@ function Hero() {
                 <Cursor cursorColor='#F7AB0A' /> 
             </h3>
             <p className='p__opensans'>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.</p>
-        </div>
-    </motion.div>
+            <div class="lines">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+        </motion.div>
+    </div>
   )
 }
 

@@ -27,18 +27,20 @@
 
 .navbar-links li{
   margin: 0 2rem;
-  color: #FCF951FF;
+  color: rgb(187, 187, 187);
+  transition: 0.3s ease-in;
 }
 
 .navbar-links li:hover{
-    color: gray;
+    color: #FCF951FF;
 }
 
 .navbar-logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex: 1
+    flex: 1;
+    cursor: pointer;
 }
 
 .navbar-logo img{
@@ -52,7 +54,7 @@
     position: relative;
 }
 
-.resume:hover{
+.resume a:hover{
     color: #422057FF
 }
 

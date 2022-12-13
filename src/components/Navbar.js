@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className='navbar' id='nav'>
         <div className='navbar-logo'>
-            <img src='/logo.png' alt='logo'/>
+            <a href='#top'><img src='/logo.png' alt='logo'/></a>
         </div>
 
         <ul className='navbar-links'>
