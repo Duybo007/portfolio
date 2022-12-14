@@ -200,9 +200,10 @@ function Skills({directionLeft}) {
                 </div>
             </motion.div>
             
-           
+        
 
         </motion.div>
+        <h1 className='p-back'>Skills</h1>
     </div>
   )
 }

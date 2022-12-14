@@ -1,13 +1,13 @@
 .skills{
     height: 100%;
     width: 100vw;
-    max-width: 1100px;
     margin: 0 auto 5rem auto;
     padding: 2rem;
+    position: relative;
 }
 
 .skills h3{
-    font-size: 4rem;
+    font-size: 5rem;
     color: #FCF951FF;
     font-family: 'Cormorant Upright', serif;
     position: relative;
@@ -37,7 +37,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 1.5rem;
+    margin: 1.5rem auto 0 auto;
+    max-width: 1100px
 }
 
 .skills-list h2{
@@ -124,6 +125,17 @@
   color: #422057FF;
   font-family: 'Cormorant Upright', serif;
   font-size: 2rem;
+}
+
+.p-back{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(90, 35, 124);
+  position: absolute;
+  font-size: 30rem;
+  font-weight: bold;
+  z-index: -5;
+  right: 5%;
+  top: 25%;
 }
 
 @media screen and (max-width: 850px) {

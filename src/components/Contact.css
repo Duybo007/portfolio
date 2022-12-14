@@ -14,7 +14,20 @@ h4 {
     line-height: 1.5;
 }
 
+.overlay{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(42, 23, 53);
+    position: absolute;
+    font-size: 30rem;
+    font-weight: bold;
+    z-index: 0;
+    right: 15%;
+    top: 0;
+    height: fit-content;
+}
+
 .contact-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,6 +129,7 @@ textarea {
     width: 650px;
     max-width: 100%;
     margin: 20px auto 25px auto;
+    z-index: 1;
 }
 
 

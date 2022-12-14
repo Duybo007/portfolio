@@ -34,7 +34,8 @@ function Hero() {
                 <span className='mr-3'>{text}</span>
                 <Cursor cursorColor='#F7AB0A' /> 
             </h3>
-            <p className='p__opensans'>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.</p>
+            <p className='p__opensans'>
+                Front-end developer who cares deeply about user experience. Serious passion for creating user-friendly, visually appealing websites and applications.</p>
             <div class="lines">
   <div class="line"></div>
   <div class="line"></div>
