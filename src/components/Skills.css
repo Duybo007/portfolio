@@ -1,8 +1,7 @@
 .skills{
-    height: 100%;
     width: 100vw;
-    margin: 0 auto 5rem auto;
-    padding: 2rem;
+    margin: 0 auto;
+    padding: 100px 2rem;
     position: relative;
 }
 
@@ -35,10 +34,12 @@
 
 .skills-list{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 1.5rem auto 0 auto;
-    max-width: 1100px
+    max-width: 1100px;
+    gap : 1.5rem
 }
 
 .skills-list h2{
@@ -60,13 +61,14 @@
 .skills-list-container{
   display: flex;
   gap: 1.5rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 
 .container {
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   perspective: 800px;
 }
 
@@ -76,8 +78,8 @@
 }
 
 .card {
-  height: 200px;
-  width:200px;
+  height: 100%;
+  width:100%;
   position: relative;
   transition: transform 1500ms;
   transform-style: preserve-3d;
@@ -102,7 +104,7 @@
 }
 
 .front img{
-  width: 80%;
+  width: 50%;
 }
 
 .front p{
@@ -124,7 +126,7 @@
 .back h1{
   color: #422057FF;
   font-family: 'Cormorant Upright', serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .p-back{
@@ -140,21 +142,18 @@
 
 @media screen and (max-width: 850px) {
   .container{
-    width: 150px;
-    height: 200px;
-  }
-
-  .card{
-    width: 150px;
-    height: 200px
+    width: 130px;
+    height: 130px;
   }
 
   .front, .back{
     border-radius: 15px;
   }
 
-  .front, .back h1, p{
-    font-size: 1rem;
+  .front, 
+  .back h1, 
+  p{
+    font-size: 1.5rem;
   }  
 
   .skills h3{

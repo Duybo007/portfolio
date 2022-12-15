@@ -1,19 +1,18 @@
 .about{
-    height: 100vh;
     width: 100vw;
     max-width: 1100px;
     margin: 0 auto;
     text-align: left;
-    padding: 0 2rem;
+    padding: 100px 2rem;
 }
 
 .about h3{
     font-size: 7rem;
     color: #FCF951FF;
     font-family: 'Cormorant Upright', serif;
-    margin-top: 5rem;
+    /* margin-top: 1rem; */
     position: relative;
-    width: fit-content
+    width: fit-content;
 }
 
 .about-me::after{
@@ -42,7 +41,7 @@
 }
 
 .contents p{
-    font-size: 1.1rem;
+    font-size: 20px;
     line-height: 1.8rem;
     font-weight: 600;
     color: rgb(187, 187, 187);
@@ -69,10 +68,12 @@ span{
     .contents {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
     }
-
+    .contents p{
+        margin: 0;
+    }
     .contents-img{
         margin-top: 2rem;
         display: flex;
@@ -87,10 +88,11 @@ span{
 
     .about{
         height: 100%;
+        text-align: center;
     }
 
     .about h3{
         font-size: 4rem;
-        margin:0
+        margin: 0 auto 1rem auto;
     }
 }

@@ -77,9 +77,20 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     border-radius: 4px;
 }
 
+.error{
+    color: #51FCA3;
+    position: absolute;
+}
+
+.contact-btn:disabled{
+    opacity: 0.35;
+}
 @media only screen and (max-width: 768px){
     .styled-input {
             width:100%;
+    }
+    .contact-btn{
+        margin-top: 2rem;
     }
 }
 

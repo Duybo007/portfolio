@@ -1,9 +1,8 @@
 .projects{
     width: 100vw;
-    
     margin: 0 auto;
     text-align: left;
-    padding: 0 2rem;
+    padding: 100px 2rem;
     position: relative;
 }
 
@@ -97,6 +96,7 @@
     border-radius: 10px;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
+    z-index: 2;
 }
 
 .project-title{
@@ -111,7 +111,6 @@
     transition: all 0.5s ease-in-out;
     border-radius: 10px;
 }
-
 
 .project-tools{
     display: flex;
@@ -155,6 +154,7 @@
 @media screen and (max-width: 850px){
     .projects h3{
         font-size: 4rem;
+        text-align: center;
     }
     .projects-intro{
         font-size: 1.5rem;

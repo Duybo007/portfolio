@@ -34,7 +34,7 @@ function Hero() {
                 <span className='mr-3'>{text}</span>
                 <Cursor cursorColor='#F7AB0A' /> 
             </h3>
-            <p className='p__opensans'>
+            <p className='p__opensans des'>
                 Front-end developer who cares deeply about user experience. Serious passion for creating user-friendly, visually appealing websites and applications.</p>
             <div class="lines">
   <div class="line"></div>

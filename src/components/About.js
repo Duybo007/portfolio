@@ -5,42 +5,28 @@ import { motion } from "framer-motion";
 function About() {
 
   return (
-    <div className='about'>
-        
-
+    <motion.div
+                initial={{opacity: 0,}}
+                whileInView={{opacity : 1}}
+                transition={{duration: 1.5}}
+                viewport={{ once: true }}
+                className='about'>
         <div className='contents'>
             <div className='contents-about'>
-            <motion.h3
-                initial={{opacity: 0,}}
-                whileInView={{opacity : 1}}
-                transition={{duration: 1.5}}
-                viewport={{ once: true }}
-                className="about-me"
-                >About Me.</motion.h3>
-                <motion.p
-                initial={{opacity: 0,}}
-                whileInView={{opacity : 1}}
-                transition={{duration: 1.5}}
-                viewport={{ once: true }}
-                >
-                    I <span>Design</span> & <span>Develop</span> for the Web. I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
-                </motion.p>
+            <h3 className="about-me">About Me.</h3>
+                <p>
+                    I <span>Design</span> & <span>Develop</span> for the Web. 
+                    Hello! My name is Duy Ngo and I am a junior front-end developer with a passion for creating intuitive and engaging user experiences. With my skills in HTML, CSS, and JavaScript, I can build responsive and interactive websites that not only look great, but also provide a seamless user experience on all devices. </p>
+                    <br/>
+                    <p>I am also proficient in responsive design and have experience working with popular front-end frameworks such as React and Nextjs. With my passion for problem-solving and attention to detail, I am confident in my ability to deliver high-quality web development solutions for all my projects.
+                    I am eager to learn and grow in this field, and I believe I would be a valuable addition.
+                </p>
             </div>
             <div className='contents-img'>
-                <motion.img
-                initial={{
-                    opacity: 0,
-                }}
-                whileInView={{ opacity: 1}}
-                viewport={{once : true}}
-                transition={{
-                    duration: 1.5
-                }}
-                src='/me.png' alt='about me'/>
+                <img src='/me.png' alt='about me'/>
             </div>
-            
         </div>
-    </div>
+    </motion.div>
   )
 }
 
