@@ -19,7 +19,7 @@ function Modal({open, onClose}) {
         <div onClick={(e)=>{
             e.stopPropagation()
         }} className='modalContainer'>
-            <img src='/thankyou.png' alt='contact img'/>
+            <img src='/thankyou.jpg' alt='contact img'/>
             <p>Your message has been received. I will get back to you as soon as I can!</p>
         </div>
         <Confetti gravity={0.2} numberOfPieces={pieces} />

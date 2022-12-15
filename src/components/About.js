@@ -13,7 +13,7 @@ function About() {
                 className='about'>
         <div className='contents'>
             <div className='contents-about'>
-            <h3 className="about-me">About Me.</h3>
+                <h3 className="about-me">About Me.</h3>
                 <p>
                     I <span>Design</span> & <span>Develop</span> for the Web. 
                     Hello! My name is Duy Ngo and I am a junior front-end developer with a passion for creating intuitive and engaging user experiences. With my skills in HTML, CSS, and JavaScript, I can build responsive and interactive websites that not only look great, but also provide a seamless user experience on all devices. </p>

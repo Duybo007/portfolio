@@ -118,9 +118,6 @@ class="contact-container">
 	{openModal && (
 		<Modal open={openModal} onClose={()=>setOpenModal(false)}/>
 	)}
-	
-	<h5 className='overlay'>@</h5>
-	
 </motion.div>
 
     

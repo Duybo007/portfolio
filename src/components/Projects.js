@@ -26,7 +26,8 @@ function Projects() {
             <div className='project-contents'>
                 <a 
                 target="_blank"
-                href='https://netflix-clone-chi-rouge.vercel.app/'><h2 className='project-title'>Netflix Clone</h2></a>
+                className='project-title'
+                href='https://netflix-clone-chi-rouge.vercel.app/'>Netflix Clone</a>
                 <p className='project-des'>
                 A Netflix clone website is a streaming platform that offers a similar user experience and content selection as Netflix. Users can sign up for an account, browse and find movies and TV shows, and create personal watchlists.
                 </p>
@@ -40,7 +41,10 @@ function Projects() {
                 target="_blank"
                 href='https://netflix-clone-chi-rouge.vercel.app/' className='project-link'>Website</a>
             </div>
-            <img className='project-img' src='/netflix.png' />
+            <a 
+            target="_blank"
+            href='https://netflix-clone-chi-rouge.vercel.app/'
+            className='link'><img className='project-img' src='/netflix.png' /></a>
         </motion.div>
         <motion.div 
             initial={{
@@ -54,7 +58,8 @@ function Projects() {
             <div className='project-contents-rev'>
                 <a 
                 target="_blank"
-                href='https://habana-phi.vercel.app/'><h2 className='project-title'>Restaurant Landing Page</h2></a>
+                className='project-title'
+                href='https://habana-phi.vercel.app/'>Restaurant Landing Page</a>
                 <p className='project-des des-rev'>
                 A refreshed version of the website for a restaurant that includes the ability for users to easily make reservations online. This can help streamline the reservation process and improve the customer experience, making it more convenient for diners to plan their meals at the restaurant.
                 </p>
@@ -67,7 +72,11 @@ function Projects() {
                 target="_blank"
                 href='https://habana-phi.vercel.app/' className='project-link'>Website</a>
             </div>
-            <img className='project-img' src='/habana.png' />
+            <a 
+                className='link-left'
+                target="_blank"
+                href='https://habana-phi.vercel.app/'>
+            <img className='project-img' src='/habana.png' /></a>
         </motion.div>
     </div>
     <h1 className='work-back'>Work</h1>

@@ -3,6 +3,7 @@
     width: 100vw;
     display: flex;
     margin: 3rem auto;
+    position: relative;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 60%, rgba(66,32,87,1) 100%);
 }

@@ -36,12 +36,12 @@ function Hero() {
             </h3>
             <p className='p__opensans des'>
                 Front-end developer who cares deeply about user experience. Serious passion for creating user-friendly, visually appealing websites and applications.</p>
-            <div class="lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-</div>
         </motion.div>
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </div>
   )
 }
