@@ -233,6 +233,7 @@
         background-color: #011a0dbb;
         border-radius: 10px;
         gap: 2rem;
+        width: 100%;
     }
 
     .project-img{
@@ -247,6 +248,7 @@
     }
     .project-tools{
         color: white;
+        flex-wrap: wrap;
     }
     .project-tools li{
         background-color: black;
@@ -260,3 +262,5 @@
         display: none;
     }
 }
+
+
