@@ -13,7 +13,6 @@ function Hero() {
     })
   return (
     <div 
-    
     className='hero'>
         <motion.div
         initial={{

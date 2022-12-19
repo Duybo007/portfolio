@@ -69,6 +69,26 @@
     width: 70%;
 }
 
+@media screen and (min-width: 2500px){
+  .intro{
+    max-width: 1500px;
+  }
+  .intro h2{
+    font-size: 3rem;
+  }
+  .intro-name{
+    font-size: 8rem;
+  }
+  .intro h3{
+    font-size: 6rem;
+  }
+  .intro p{
+    font-size: 2rem;
+    max-width: 740px;
+    line-height: 3rem;
+  }
+}
+
 @media screen and (max-width: 850px){
     .intro-name{
         font-size: 4rem;

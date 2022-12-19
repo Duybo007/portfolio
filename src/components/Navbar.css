@@ -83,7 +83,14 @@
     display: none;
     cursor: pointer;
 }
-
+@media screen and (min-width: 2500px){
+    .navbar{
+        height: 85px;
+    }
+    .navbar-logo img{
+        width: 80px;
+    }
+}
 @media screen and (max-width: 1150px) {
     .navbar-links{
         display: none;

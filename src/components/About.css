@@ -3,7 +3,7 @@
     max-width: 1100px;
     margin: 0 auto;
     text-align: left;
-    padding: 100px 2rem;
+    padding: 100px 0;
 }
 
 .about h3{
@@ -73,14 +73,23 @@ span{
 
 @media only screen and (min-width: 1080px){
     .about{
-        max-width: 1500px;
-        padding: 100px 8rem;
+        padding: 100px 0;
     }
     .contents p{
         max-width: 700px;
     }
 }
-
+@media screen and (min-width: 2500px){
+    .about{
+        max-width: 1500px;
+        padding: 0;
+    }
+    .contents p{
+        max-width: 850px;
+        font-size: 35px;
+        line-height: 2.7rem;
+    }
+}
 @media screen and (max-width: 850px) {
     .contents {
         display: flex;
