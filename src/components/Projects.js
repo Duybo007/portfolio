@@ -46,6 +46,7 @@ function Projects() {
             href='https://netflix-clone-chi-rouge.vercel.app/'
             className='link'><img className='project-img' src='/netflix.png' /></a>
         </motion.div>
+
         <motion.div 
             initial={{
             x: 200 ,
@@ -77,6 +78,39 @@ function Projects() {
                 target="_blank"
                 href='https://habana-phi.vercel.app/'>
             <img className='project-img' src='/habana.png' /></a>
+        </motion.div>
+
+        <motion.div
+            initial={{
+            x: -200 ,
+            opacity: 0
+            }}
+            whileInView={{opacity : 1, x : 0 }}
+            transition={{duration: 1.5}}
+            viewport={{once : true}}
+        className='project'>
+            <div className='project-contents'>
+                <a 
+                target="_blank"
+                className='project-title'
+                href='https://new-recipes-book.vercel.app/'>Recipe Website</a>
+                <p className='project-des'>
+                A recipe web design allows users to create an account, search for recipes by name or ingredients, and save their favorite recipes. Users can log in to their account to access their saved recipes and browse for new ones to try.
+                </p>
+                <ul className='project-tools'>
+                    <li>Next.js</li>
+                    <li>Firebase</li>
+                    <li>Spoonacular API</li>
+                    <li>Vercel</li>
+                </ul>
+                <a 
+                target="_blank"
+                href='https://new-recipes-book.vercel.app/' className='project-link'>Website</a>
+            </div>
+            <a 
+            target="_blank"
+            href='https://new-recipes-book.vercel.app/'
+            className='link'><img className='project-img' src='/netflix.png' /></a>
         </motion.div>
     </div>
     <h1 className='work-back'>Work</h1>
