@@ -31,7 +31,7 @@ function Hero() {
             <h1 className='intro-name'>Duy Ngo.</h1>
             <h3>
                 <span className='mr-3'>{text}</span>
-                <Cursor cursorColor='#F7AB0A' /> 
+                <Cursor cursorColor='#15DB95' /> 
             </h3>
             <p className='p__opensans des'>
                 Front-end developer who cares deeply about user experience. Serious passion for creating user-friendly, visually appealing websites and applications.</p>

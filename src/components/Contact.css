@@ -2,7 +2,7 @@
     font-family: 'Cormorant Upright', serif;
     font-weight: 600;
     font-size: 4rem;
-    color: #FCF951FF;
+    color: #15DB95;
     text-align: center;
     position: relative;
 }
@@ -15,7 +15,7 @@
     height: 4px;
     bottom: 15%;
     left: 0;
-    background-color: #FCF951FF;
+    background-color: #15DB95;
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 }
@@ -29,7 +29,7 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: rgb(187, 187, 187);
+    color: #FBFFFD;
     line-height: 1.5;
 }
  
@@ -44,16 +44,16 @@ h4 {
     padding: 0 2rem;
     margin-top: 100px;
     background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 60%, rgba(66,32,87,1) 100%);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 60%, #0D19A3 100%);
 }
 
 .contact-btn{
-    border: 1px solid #51FCA3;
+    border: 1px solid #15DB95;
     border-radius: 5px;
     padding: 1rem 2rem;
     position: relative;
     background-color:transparent;
-    color: #51FCA3;
+    color: #15DB95;
     font-size: 1rem;
     cursor: pointer;
     transition: 0.5s ease-in-out;
@@ -61,7 +61,7 @@ h4 {
 }
 
 .contact-btn:hover{
-    background-color: #51FCA3;
+    background-color: #15DB95;
     color: #422057FF;
     font-weight: 600;
 }

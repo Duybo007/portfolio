@@ -7,7 +7,7 @@
 
 .skills h3{
     font-size: 5rem;
-    color: #FCF951FF;
+    color: #15DB95;
     font-family: 'Cormorant Upright', serif;
     position: relative;
     width:fit-content;
@@ -22,7 +22,7 @@
   height: 4px;
   bottom: 15%;
   left: 0;
-  background-color: #FCF951FF;
+  background-color: #15DB95;
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
@@ -44,7 +44,7 @@
 
 .skills-list h2{
   font-family: 'Open Sans', sans-serif;
-  color: rgb(187, 187, 187);
+  color: #FBFFFD;
   margin: 1.5rem 0;
 }
 
@@ -52,7 +52,7 @@
     font-size: 1.1rem;
     line-height: 1.8rem;
     font-weight: 600;
-    color: rgb(187, 187, 187);
+    color: #FBFFFD;
     max-width: 540px;
     margin-right: 1rem;
     font-family: 'Open Sans', sans-serif
@@ -131,7 +131,7 @@
 
 .p-back{
   font-family: 'Open Sans', sans-serif;
-  color: rgb(83, 40, 109);
+  color: #080F5B;
   position: absolute;
   font-size: 30rem;
   font-weight: bold;
@@ -149,7 +149,9 @@
   .front, .back{
     border-radius: 15px;
   }
-
+  .p-back{
+    font-size: 10rem;
+  }
   .front, 
   .back h1, 
   p{

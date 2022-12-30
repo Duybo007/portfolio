@@ -8,7 +8,7 @@
 }
 .projects h3{
     font-size: 4rem;
-    color: #FCF951FF;
+    color: #15DB95;
     font-family: 'Cormorant Upright', serif;
     text-align: left;
     position: relative;
@@ -24,7 +24,7 @@
     height: 4px;
     bottom: 15%;
     left: 0;
-    background-color: #FCF951FF;
+    background-color: #15DB95;
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 }
@@ -35,7 +35,7 @@
 }   
 
 .projects-intro{
-    color: rgb(187, 187, 187);
+    color: #FBFFFD;
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     margin: 3rem auto;
@@ -97,8 +97,8 @@
 }
 
 .project-des{
-    background-color: rgb(49, 21, 66);
-    color: rgb(187, 187, 187);
+    background-color: #080F5B;
+    color: #FBFFFD;
     max-width: 50%;
     padding: 1rem;
     border-radius: 10px;
@@ -108,7 +108,7 @@
 }
 
 .project-title{
-    color: #51FCA3;
+    color: #15DB95;
     font-size: 2rem;
     cursor: pointer;
     transition: 0.5s ease-out;
@@ -125,9 +125,9 @@
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
   
         text-shadow:
-        0 0 4px #51FCA3,
-        0 0 11px #51FCA3,
-        0 0 19px #51FCA3,
+        0 0 4px #15DB95,
+        0 0 11px #15DB95,
+        0 0 19px #15DB95,
         0 0 40px #0fa,
         0 0 80px #0fa,
         0 0 90px #0fa,
@@ -165,8 +165,9 @@
 .project-tools{
     display: flex;
     gap: 1.5rem;
-    color: rgb(187, 187, 187);
+    color: #E4C580;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .project-link{
@@ -181,12 +182,12 @@
 
 .project-link:hover{
     background-color: #51fca4a4;
-    color: #422057FF;
+    color: #FBFFFD;
 }
 
 .work-back{
     font-family: 'Open Sans', sans-serif;
-    color: rgb(83, 40, 109);
+    color: #080F5B;
     position: absolute;
     font-size: 30rem;
     font-weight: bold;
