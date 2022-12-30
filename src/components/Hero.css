@@ -5,6 +5,7 @@
     margin: 3rem auto;
     position: relative;
     background: rgb(2,0,36);
+    font-family: 'Titillium Web', sans-serif;
     background: linear-gradient(180deg, rgba(2,0,36,1) 60%, #0D19A3 100%);
 }
 
@@ -27,7 +28,7 @@
     margin-left: -5px;
 }
 
-.intro h3{
+.intro h3{  
     text-align: left;
     font-size: 4rem;
     color: #15DB95;
@@ -36,7 +37,7 @@
 
 .intro h2{
     font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     color: #FBFFFD;
     text-align: left;
@@ -54,7 +55,7 @@
     font-size: 1.1rem;
     line-height: 2rem;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Titillium Web', sans-serif
 }
 
 .me-img{
@@ -114,9 +115,7 @@
     .intro h3{
         font-size: 2rem;
     }
-    .p__opensans{
 
-    }
 }
 
 .lines {

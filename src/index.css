@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;900&display=swap');
 
 body {
   background-color: #0D19A3;
@@ -30,7 +30,7 @@ a {
 }
 
 .p__opensans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: white;
   font-weight: 400;
   letter-spacing: 0.04em;
