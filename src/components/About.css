@@ -12,6 +12,7 @@
     font-family: 'Titillium Web', sans-serif;
     position: relative;
     width: fit-content;
+    font-weight: 700;
 }
 
 .about-me::after{

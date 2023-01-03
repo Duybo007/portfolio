@@ -5,6 +5,7 @@
     color: #15DB95;
     text-align: center;
     position: relative;
+    font-weight: 700;
 }
 
 .row h1::after{
