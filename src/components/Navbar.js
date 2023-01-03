@@ -39,7 +39,7 @@ function Navbar() {
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#about">About</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#skills">Skills</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#projects">Projects</a></li>
-                <li onClick={()=>setActive(false)} className='p__opensans'><a href="#">Contact</a></li>
+                <li onClick={()=>setActive(false)} className='p__opensans'><a href="#contact">Contact</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#">Resume</a></li>
             </ul>
         </div>
