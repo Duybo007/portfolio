@@ -110,7 +110,7 @@ function Projects() {
             <a 
             target="_blank"
             href='https://new-recipes-book.vercel.app/'
-            className='link'><img className='project-img' src='/netflix.png' /></a>
+            className='link'><img className='project-img' src='/recipe.png' /></a>
         </motion.div>
     </div>
     <h1 className='work-back'>Work</h1>
