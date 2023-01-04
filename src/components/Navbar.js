@@ -26,10 +26,10 @@ function Navbar() {
         </div>
 
         <ul className='navbar-links'>
-            <li className='p__opensans'><a href='#about'>About</a></li>
-            <li className='p__opensans'><a href='#skills'>Skills</a></li>
-            <li className='p__opensans'><a href='#projects'>Projects</a></li>
-            <li className='p__opensans'><a href='#contact'>Contact</a></li>
+            <li className='p__opensans'><a href='#about'>/ / About</a></li>
+            <li className='p__opensans'><a href='#skills'>/ / Skills</a></li>
+            <li className='p__opensans'><a href='#projects'>/ / Projects</a></li>
+            <li className='p__opensans'><a href='#contact'>/ / Contact</a></li>
             <li className='p__opensans resume'><a href='#contact'>Resume</a></li>
         </ul>
         <AiOutlineMenu onClick={()=>setActive(true)} className='btn'/>
