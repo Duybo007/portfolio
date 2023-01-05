@@ -152,8 +152,8 @@
     z-index: 2;
     object-fit: cover;
     filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--webkit-transition: all 1s ease;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
 }
 
 .project img:hover{

@@ -14,6 +14,7 @@ function About() {
         <div className='contents'>
             <div className='contents-about'>
                 <h3 className="about-me">About Me.</h3>
+                <main>about me</main>
                 <p>
                     I <span>Design</span> & <span>Develop</span> for the Web. 
                     Hello! My name is Duy Ngo and I am a junior front-end developer with a passion for creating intuitive and engaging user experiences. With my skills in HTML, CSS, and JavaScript, I can build responsive and interactive websites that not only look great, but also provide a seamless user experience on all devices. </p>
@@ -22,7 +23,7 @@ function About() {
                     I am eager to learn and grow in this field, and I believe I would be a valuable addition.
                 </p>
             </div>
-            <div className='contents-img'>
+            <div className='contents-img'>s
                 <img src='/me.png' alt='about me'/>
             </div>
         </div>
