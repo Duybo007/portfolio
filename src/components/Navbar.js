@@ -30,7 +30,7 @@ function Navbar() {
             <li className='p__opensans'><a href='#skills'>/ / Skills</a></li>
             <li className='p__opensans'><a href='#projects'>/ / Projects</a></li>
             <li className='p__opensans'><a href='#contact'>/ / Contact</a></li>
-            <li className='p__opensans resume'><a href='#contact'>Resume</a></li>
+            <li className='p__opensans resume'><a href='https://drive.google.com/file/d/1DY3CZIwpolsRUZ6insTxQ3SohTvAXvur/view'>Resume</a></li>
         </ul>
         <AiOutlineMenu onClick={()=>setActive(true)} className='btn'/>
         <div className={`wrapper ${active? "active" : ""}`}>
@@ -40,7 +40,7 @@ function Navbar() {
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#skills">Skills</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#projects">Projects</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#contact">Contact</a></li>
-                <li onClick={()=>setActive(false)} className='p__opensans'><a href="#">Resume</a></li>
+                <li onClick={()=>setActive(false)} className='p__opensans'><a href="https://drive.google.com/file/d/1DY3CZIwpolsRUZ6insTxQ3SohTvAXvur/view">Resume</a></li>
             </ul>
         </div>
     </div>
