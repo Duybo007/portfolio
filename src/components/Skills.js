@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Skills({directionLeft}) {
   return (
     <div className='skills'>
-        <motion.h3
+        {/* <motion.h3
             initial={{
             y: directionLeft? -200 : 200,
             opacity: 0
@@ -13,7 +13,16 @@ function Skills({directionLeft}) {
             whileInView={{opacity : 1, y : 0 }}
             transition={{duration: 1}}
             viewport={{once : true}}
-        >What I Can Do.</motion.h3>
+        >What I Can Do.</motion.h3> */}
+        <motion.main
+        initial={{
+            y: directionLeft? -200 : 200,
+            opacity: 0
+            }}
+            whileInView={{opacity : 1, y : 0 }}
+            transition={{duration: 1}}
+            viewport={{once : true}}
+            >skills</motion.main>
         
         <motion.div 
         className='skills-list'>

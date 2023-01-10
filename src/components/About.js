@@ -13,7 +13,7 @@ function About() {
                 className='about'>
         <div className='contents'>
             <div className='contents-about'>
-                <h3 className="about-me">About Me.</h3>
+                {/* <h3 className="about-me">About Me.</h3> */}
                 <main>about me</main>
                 <p>
                     I <span>Design</span> & <span>Develop</span> for the Web. 
