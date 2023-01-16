@@ -23,7 +23,7 @@ function About() {
                     I am eager to learn and grow in this field, and I believe I would be a valuable addition.
                 </p>
             </div>
-            <div className='contents-img'>s
+            <div className='contents-img'>
                 <img src='/me.png' alt='about me'/>
             </div>
         </div>
