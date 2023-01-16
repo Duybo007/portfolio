@@ -197,7 +197,14 @@
     right: 5%;
     top: 25%;
 }
-
+.project-links{
+    display: flex;
+    gap: 1rem;
+}
+.git{
+    background-color: #15DB95;
+    color: white;
+}
 
 @media only screen and (min-width: 1080px){
     .projects{

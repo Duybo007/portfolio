@@ -38,9 +38,14 @@ function Projects() {
                     <li>TMDB API</li>
                     <li>Vercel</li>
                 </ul>
-                <a 
-                target="_blank"
-                href='https://netflix-clone-chi-rouge.vercel.app/' className='project-link'>Website</a>
+                <div className='project-links'>
+                    <a 
+                    target="_blank"
+                    href='https://netflix-clone-chi-rouge.vercel.app/' className='project-link'>Deploy</a>
+                    <a
+                    target="_blank"
+                    href='https://github.com/Duybo007/netflix-clone' className='project-link git'>GitHub</a>
+                </div>
             </div>
             <a 
             target="_blank"
@@ -70,9 +75,14 @@ function Projects() {
                     <li>Firebase</li>
                     <li>Vercel</li>
                 </ul>
-                <a 
-                target="_blank"
-                href='https://habana-phi.vercel.app/' className='project-link'>Website</a>
+                <div className='project-links'>
+                    <a 
+                    target="_blank"
+                    href='https://habana-phi.vercel.app/' className='project-link'>Deploy</a>
+                    <a
+                    target="_blank"
+                    href='https://github.com/Duybo007/habana' className='project-link git'>GitHub</a>
+                </div>
             </div>
             <a 
                 className='link-left'
@@ -104,9 +114,14 @@ function Projects() {
                     <li>Spoonacular API</li>
                     <li>Vercel</li>
                 </ul>
-                <a 
-                target="_blank"
-                href='https://new-recipes-book.vercel.app/' className='project-link'>Website</a>
+                <div className='project-links'>
+                    <a 
+                    target="_blank"
+                    href='https://new-recipes-book.vercel.app/' className='project-link'>Deploy</a>
+                    <a
+                    target="_blank"
+                    href='https://github.com/Duybo007/new_recipes_book' className='project-link git'>GitHub</a>
+                </div>
             </div>
             <a 
             target="_blank"
