@@ -9,12 +9,53 @@ function Projects() {
             whileInView={{opacity : 1}}
             transition={{duration: 1.5}}
             viewport={{ once: true }}
-    className='projects'>
+            className='projects'>
         {/* <h3>Some Things I’ve Built.</h3> */}
         <main>projects</main>
         <p className='projects-intro'>
             Check out some of my latest web design case studies.</p>
     <div className='projects-content'>
+        
+    <motion.div 
+            initial={{
+            x: 200 ,
+            opacity: 0
+            }}
+            whileInView={{opacity : 1, x : 0 }}
+            transition={{duration: 1.5}}
+            viewport={{once : true}}
+            className='project left'>
+            <div className='project-contents-rev'>
+                <a 
+                target="_blank"
+                className='project-title'
+                href='https://dall-e-clone-sable.vercel.app/'>DALL-E Clone</a>
+                <p className='project-des des-rev'>
+                A DALL-E clone MERN app is a web application that replicates the functionality of OpenAI's DALL-E AI system, using MongoDB, Express, React, and Node.js to generate custom images based on textual descriptions and provide a user-friendly interface, efficient processing, and scalable storage. The app is designed for scalability and flexibility, allowing for high-volume usage and the addition of new features.
+                </p>
+                <ul className='project-tools'>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+                <div className='project-links'>
+                    <a 
+                    target="_blank"
+                    href='https://dall-e-clone-sable.vercel.app/' className='project-link'>Deploy</a>
+                    <a
+                    target="_blank"
+                    href='https://github.com/Duybo007/dall-e-clone' className='project-link git'>GitHub</a>
+                </div>
+            </div>
+            <a 
+                className='link-left'
+                target="_blank"
+                href='https://dall-e-clone-sable.vercel.app/'>
+            <img className='project-img' src='/dalle.png' /></a>
+        </motion.div>
+        
         <motion.div
             initial={{
             x: -200 ,
@@ -23,7 +64,7 @@ function Projects() {
             whileInView={{opacity : 1, x : 0 }}
             transition={{duration: 1.5}}
             viewport={{once : true}}
-        className='project'>
+            className='project'>
             <div className='project-contents'>
                 <a 
                 target="_blank"
@@ -61,7 +102,7 @@ function Projects() {
             whileInView={{opacity : 1, x : 0 }}
             transition={{duration: 1.5}}
             viewport={{once : true}}
-        className='project left'>
+            className='project left'>
             <div className='project-contents-rev'>
                 <a 
                 target="_blank"
