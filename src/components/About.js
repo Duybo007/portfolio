@@ -18,9 +18,9 @@ function About() {
                 <h3>/ /About Me</h3>
                 <p>
                     I <span>Design</span> & <span>Develop</span> for the Web. 
-                    My name is Duy, and I have a genuine passion for crafting captivating creations on the web. My fascination with web development sparked when I delved into the realm of coding, and even a simple endeavor like crafting a custom reblog button enlightened me about the power of HTML and CSS. This revelation inspired me to explore further.
+                    My name is Duy, and I'm deeply passionate about crafting captivating creations on the web. I discovered my love for web development when I began coding and realized the immense power of HTML and CSS, even in simple tasks like creating a custom reblog button. This inspired me to delve deeper into the world of web development.
                 </p>
-                <p>Since then, my journey has been an exhilarating one. I've had the incredible opportunity to contribute my skills and expertise to a dynamic startup environment. Presently, my primary focus revolves around the development of accessible and inclusive products, as well as creating immersive digital experiences at <span><a target="_blank" href='https://rezrva.com/'>Rezrva</a></span>. Every day, I embrace the chance to expand my knowledge and continuously evolve in this ever-evolving field.
+                <p>Since then, I've been on an exhilarating journey, contributing my skills to a dynamic startup environment. Currently, at <span><a target="_blank" href='https://rezrva.com/'>Rezrva</a></span>, my focus is on developing inclusive products and immersive digital experiences. Every day, I seize the opportunity to expand my knowledge and evolve in this ever-changing field.
                 </p>
                 <p>Here are a few technologies I’ve been working with recently:</p>
                 <div className='contents-list'>

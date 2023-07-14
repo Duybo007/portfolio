@@ -13,7 +13,7 @@
     position: relative;
     width: fit-content;
     font-weight: 700;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .about h3::after{
@@ -36,7 +36,7 @@
 
 .contents-list {
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
     color: #a5a5a5;
     font-size: 18px;
 }
@@ -168,9 +168,11 @@ span{
         text-align: left;
         padding-bottom: 1rem
     }
-    .contents-about{
-        /* align-items:start; */
+
+    .contents-list{
+        padding: 0 1rem;
     }
+
     .contents-img{
         margin-top: 2rem;
         display: flex;
