@@ -14,14 +14,29 @@ function About() {
         <div className='contents'>
             <div className='contents-about'>
                 {/* <h3 className="about-me">About Me.</h3> */}
-                <main>about me</main>
+                {/* <main>about me</main> */}
+                <h3>/ /About Me</h3>
                 <p>
                     I <span>Design</span> & <span>Develop</span> for the Web. 
-                    Hello! My name is Duy Ngo and I am a junior front-end developer with a passion for creating intuitive and engaging user experiences. With my skills in HTML, CSS, and JavaScript, I can build responsive and interactive websites that not only look great, but also provide a seamless user experience on all devices. </p>
-                    <br/>
-                    <p>I am also proficient in responsive design and have experience working with popular front-end frameworks such as React and Nextjs. With my passion for problem-solving and attention to detail, I am confident in my ability to deliver high-quality web development solutions for all my projects.
-                    I am eager to learn and grow in this field, and I believe I would be a valuable addition.
+                    My name is Duy, and I have a genuine passion for crafting captivating creations on the web. My fascination with web development sparked when I delved into the realm of coding, and even a simple endeavor like crafting a custom reblog button enlightened me about the power of HTML and CSS. This revelation inspired me to explore further.
                 </p>
+                <p>Since then, my journey has been an exhilarating one. I've had the incredible opportunity to contribute my skills and expertise to a dynamic startup environment. Presently, my primary focus revolves around the development of accessible and inclusive products, as well as creating immersive digital experiences at <span><a target="_blank" href='https://rezrva.com/'>Rezrva</a></span>. Every day, I embrace the chance to expand my knowledge and continuously evolve in this ever-evolving field.
+                </p>
+                <p>Here are a few technologies I’ve been working with recently:</p>
+                <div className='contents-list'>
+                    <ul>
+                        <li><span className='bullet'>➤</span> JavaScript (ES6+)</li>
+                        <li><span className='bullet'>➤</span> React</li>
+                        <li><span className='bullet'>➤</span> NextJs</li>
+                        <li><span className='bullet'>➤</span> Figma</li>
+                    </ul>
+                    <ul>
+                        <li><span className='bullet'>➤</span> Typescript</li>
+                        <li><span className='bullet'>➤</span> Angular</li>
+                        <li><span className='bullet'>➤</span> NextJs</li>
+                        <li><span className='bullet'>➤</span> Firebase</li>
+                    </ul>
+                </div>
             </div>
             <div className='contents-img'>
                 <img src='/me.png' alt='about me'/>

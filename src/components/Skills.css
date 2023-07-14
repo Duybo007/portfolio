@@ -1,18 +1,20 @@
 .skills{
     width: 100vw;
-    margin: 0 auto;
-    padding: 100px 2rem;
+    /* margin: 0 auto; */
+    padding: 100px 0;
     position: relative;
+    text-align: left;
 }
 
 .skills h3{
-    font-size: 5rem;
-    color: #15DB95;
+    font-size: 2rem;
+    color: #cccccc;
     font-family: 'Titillium Web', sans-serif;
     position: relative;
     width:fit-content;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-weight: 700;
+    padding-bottom: 1.5rem 
 }
 
 .skills h3::after{
@@ -33,6 +35,25 @@
   transform-origin: bottom left;
 }
 
+.experience {
+  /* margin: 0 auto; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.exp-des{
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+
+.exp-des p {
+  padding-bottom: 8px;
+  color: #a5a5a5 !important;
+  font-size: 18px;
+}
+
 .skills-list{
     display: flex;
     flex-direction: column;
@@ -45,7 +66,7 @@
 
 .skills-list h2{
   font-family: 'Titillium Web', sans-serif;
-  color: #FBFFFD;
+  color: #a5a5a5;
   margin: 1.5rem 0;
   font-weight: 600;
 }
@@ -131,16 +152,6 @@
   font-size: 1.3rem;
 }
 
-.p-back{
-  font-family: 'Titillium Web', sans-serif;
-  color: #080F5B;
-  position: absolute;
-  font-size: 30rem;
-  font-weight: bold;
-  z-index: -5;
-  right: 5%;
-  top: 25%;
-}
 
 @media screen and (max-width: 850px) {
   .container{
@@ -151,9 +162,7 @@
   .front, .back{
     border-radius: 15px;
   }
-  .p-back{
-    font-size: 10rem;
-  }
+
   .front, 
   .back h1, 
   p{
@@ -161,7 +170,8 @@
   }  
 
   .skills h3{
-    font-size: 3rem;
+    font-size: 1.8rem;
+    margin: 0 2rem;
   }
   .skills h3:hover::after{
     display: none;

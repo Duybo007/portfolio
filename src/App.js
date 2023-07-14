@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { motio, useScroll, useTransform } from "framer-motion";
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
         <About/>
       </section>
 
-      <section id='skills'>
+      {/* <section id='skills'>
         <Skills/>
-      </section>
+      </section> */}
 
       <section id='projects'>
         <Projects/>

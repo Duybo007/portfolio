@@ -7,15 +7,50 @@
 }
 
 .about h3{
-    font-size: 7rem;
-    color: #15DB95;
+    font-size: 2rem;
+    color: #cccccc;
     font-family: 'Titillium Web', sans-serif;
     position: relative;
     width: fit-content;
     font-weight: 700;
+    padding-bottom: 1.5rem;
 }
 
+.about h3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 15%;
+    left: 0;
+    background-color: #15DB95;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
 
+.about h3:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.contents-list {
+    display: flex;
+    gap: 6rem;
+    color: #a5a5a5;
+    font-size: 18px;
+}
+
+.contents-list li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bullet {
+    font-size: 10px;
+}
 
 @font-face {
     src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
@@ -28,8 +63,9 @@ main {
     transition: all 0.5s;
     -webkit-text-stroke: 4px #15DB95;
     font-variation-settings: "wght" 900, "ital" 1;
-    font-size: 10rem;
+    font-size: 8rem;
     text-align: center;
+    padding-bottom: 1rem;
     color: transparent;
     font-family: "Meta", sans-serif;
     text-shadow: 10px 10px 0px #ffffff, 15px 15px 0px #e601c0,
@@ -63,7 +99,7 @@ main:hover {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .contents-about{
@@ -74,13 +110,14 @@ main:hover {
 }
 
 .contents p{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.8rem;
-    font-weight: 600;
-    color: #FBFFFD;
+    font-weight: 500;
+    color: #a5a5a5;
     max-width: 540px;
     margin-right: 2.5rem;
-    font-family: 'Titillium Web', sans-serif
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 1rem;
 }
 
 .contents-img{
@@ -103,6 +140,7 @@ span{
     }
     .contents p{
         max-width: 700px;
+        padding-bottom: 1rem
     }
 }
 @media screen and (min-width: 2500px){
@@ -114,6 +152,7 @@ span{
         max-width: 850px;
         font-size: 35px;
         line-height: 2.7rem;
+        padding-bottom: 1rem
     }
 }
 @media screen and (max-width: 850px) {
@@ -127,9 +166,10 @@ span{
         margin: 0;
         padding: 0 1rem;
         text-align: left;
+        padding-bottom: 1rem
     }
     .contents-about{
-        align-items: center;
+        /* align-items:start; */
     }
     .contents-img{
         margin-top: 2rem;
@@ -144,12 +184,13 @@ span{
 
     .about{
         height: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .about h3{
-        font-size: 4rem;
-        margin: 0 auto 1rem auto;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
     }
     .about h3:hover::after{
         display: none;

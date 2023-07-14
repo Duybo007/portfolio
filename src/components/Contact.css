@@ -1,14 +1,14 @@
-.row h1 {
+.row h3 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 900;
-    font-size: 4rem;
-    color: #15DB95;
+    font-size: 2rem;
+    color: #cccccc;
     text-align: center;
     position: relative;
     font-weight: 700;
 }
 
-.row h1::after{
+.row h3::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -30,7 +30,7 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #FBFFFD;
+    color: #a5a5a5;
     line-height: 1.5;
 }
  

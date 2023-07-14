@@ -41,18 +41,19 @@
     font-size: 1rem;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    color: #FBFFFD;
+    color: #a5a5a5;
     text-align: left;
     word-spacing: 4px
 }
 
 .p__opensans{
     margin-top: 1rem;
+    color: #a5a5a5
 }
 
 .intro p{
     text-align: left;
-    color: #FBFFFD;
+    color: #a5a5a5;
     max-width: 540px;
     font-size: 1.1rem;
     line-height: 2rem;

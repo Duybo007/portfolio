@@ -14,7 +14,7 @@ function Skills({directionLeft}) {
             transition={{duration: 1}}
             viewport={{once : true}}
         >What I Can Do.</motion.h3> */}
-        <motion.main
+        <motion.h3
         initial={{
             y: directionLeft? -200 : 200,
             opacity: 0
@@ -22,9 +22,27 @@ function Skills({directionLeft}) {
             whileInView={{opacity : 1, y : 0 }}
             transition={{duration: 1}}
             viewport={{once : true}}
-            >skills</motion.main>
+            >/ /Where I’ve Worked</motion.h3>
         
-        <motion.div 
+        <motion.div
+        initial={{
+            y: directionLeft? -200 : 200,
+            opacity: 0
+            }}
+            whileInView={{opacity : 1, y : 0 }}
+            transition={{duration: 1}}
+            viewport={{once : true}} className='experience'>
+                <h4>Front-end Developer <span><a target="_blank" href='https://rezrva.com/'>@ Rezrva</a></span></h4>
+                <p>March 2023 - Present</p>
+                <div className='exp-des'>
+                    <p>Developed new components and improved existing features of the B2B SaaS application.</p>
+                    <p>Initiated the development of Rezrva's public-facing marketplace, integrating data from the SaaS application.</p>
+                    <p>Optimized the onboarding component, leading to a remarkable 700% increase in conversions and trial signups.</p>
+                    <p>Collaborated with team members to plan and design innovative features.</p>
+                    <p>Actively participated in code reviews, enhancing code quality and refining development processes.</p>
+                </div>
+        </motion.div>
+        {/* <motion.div 
         className='skills-list'>
             <motion.div
                 initial={{
@@ -211,8 +229,7 @@ function Skills({directionLeft}) {
             
         
 
-        </motion.div>
-        <h1 className='p-back'>Skills</h1>
+        </motion.div> */}
     </div>
   )
 }

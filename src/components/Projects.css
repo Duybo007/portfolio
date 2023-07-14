@@ -1,21 +1,22 @@
 .projects{
     width: 100vw;
     margin: 0 auto;
-    text-align: left;
-    padding: 100px 2rem;
+    padding: 100px 3rem;
     position: relative;
     overflow-x: hidden;
     font-family: 'Titillium Web', sans-serif;
 }
+
 .projects h3{
-    font-size: 4rem;
-    color: #15DB95;
+    font-size: 2rem;
+    color: #cccccc;
     font-family: 'Titillium Web', sans-serif;
     text-align: left;
     position: relative;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     font-weight: 700;
+    padding-bottom: 1.5rem ;
 }
 
 .projects h3::after{
@@ -37,7 +38,7 @@
 }   
 
 .projects-intro{
-    color: #FBFFFD;
+    color: #a5a5a5;
     font-size: 2rem;
     font-family: 'Titillium Web', sans-seriff;
     margin: 3rem auto;
@@ -100,7 +101,7 @@
 
 .project-des{
     background-color: #080F5B;
-    color: #FBFFFD;
+    color: #a5a5a5;
     max-width: 50%;
     padding: 1rem;
     border-radius: 10px;
@@ -221,8 +222,7 @@
 
 @media screen and (max-width: 850px){
     .projects h3{
-        font-size: 4rem;
-        text-align: center;
+        font-size: 1rem;
     }
     .projects-intro{
         font-size: 1.5rem;
@@ -245,6 +245,10 @@
 }
 
 @media screen and (max-width: 800px){
+    .projects{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     .project-link{
         padding: 1rem 2rem;
     }
@@ -260,6 +264,11 @@
     .project-img{
         position: absolute;
     }
+
+    .projects-intro{
+        margin: 2rem auto;
+    }
+
     .project-des{
         background-color: transparent;
         color: white;
@@ -277,7 +286,9 @@
         border-radius: 5px;
     }
     .projects h3{
-        font-size: 3rem;
+        font-size: 1.8rem;
+        margin: 0 0 2rem 0;
+        padding-bottom: 0;
     }
     .projects h3:hover::after{
         display: none;

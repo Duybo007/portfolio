@@ -49,7 +49,8 @@ viewport={{ once: true }}
 class="contact-container">
 	<div class="row">
 			{/* <h1>Contact</h1> */}
-			<main>contact</main>
+			{/* <main>contact</main> */}
+			<h3>/ /Contact</h3>
 	</div>
 	<div class="row">
 			<h4 style={{textAlign:"center"}}>I'd love to hear from you!</h4>

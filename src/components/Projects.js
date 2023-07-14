@@ -11,10 +11,10 @@ function Projects() {
             transition={{duration: 1.5}}
             viewport={{ once: true }}
             className='projects'>
-        {/* <h3>Some Things I’ve Built.</h3> */}
-        <main>projects</main>
-        <p className='projects-intro'>
-            Check out some of my latest web design case studies.</p>
+        <h3>/ /Some Things I’ve Built.</h3>
+        {/* <main>projects</main> */}
+        {/* <p className='projects-intro'>
+            Check out some of my latest web design case studies.</p> */}
     <div className='projects-content'>
         {/* <div>
             <ProjectCard/>
