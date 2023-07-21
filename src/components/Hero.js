@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 function Hero() {
     const [text, count] = useTypewriter({
-        words: ["I'm a web developer",
-    "UI/UX designer",
+        words: ["I'm a Front-end developer",
+    "React/Angular developer",
     "I make websites come alive"],
     loop: true,
     delaySpeed: 2000,
