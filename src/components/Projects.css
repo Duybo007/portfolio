@@ -36,15 +36,6 @@
     transform-origin: bottom left;
 }   
 
-.projects-intro{
-    color: #a5a5a5;
-    font-size: 2rem;
-    font-family: 'Titillium Web', sans-seriff;
-    margin: 3rem auto;
-    text-align: center;
-}
-
-
 .projects-content{
     display: flex;
     flex-direction: column;
@@ -53,138 +44,6 @@
     gap: 5rem;
     max-width: 1100px;
     margin: 0 auto;
-}
-
-.project{
-    display:flex;
-    justify-content: flex-end;
-    position: relative;
-    height: fit-content;
-}
-
-.link{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.link-left{
-    display: flex;
-}
-
-.left{
-    flex-direction: row-reverse;
-}
-
-.des-rev{
-    text-align: right;
-}
-
-.project-contents{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    /* top: 10%; */
-    gap: 1rem;
-}
-
-.project-contents-rev{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    /* top: 10%; */
-    gap: 1rem;
-    align-items: flex-end;
-}
-
-.project-des{
-    background-color: #080F5B;
-    color: #a5a5a5;
-    max-width: 50%;
-    padding: 1rem;
-    border-radius: 10px;
-    line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
-    z-index: 5;
-}
-
-.project-title{
-    color: #15DB95;
-    font-size: 2rem;
-    cursor: pointer;
-    transition: 0.5s ease-out;
-    width: fit-content;
-    font-weight: bold;
-    z-index: 5
-}
-
-.project-title:hover{
-    animation: flicker 1.5s infinite alternate;
-}
-@keyframes flicker {
-    
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #15DB95,
-        0 0 11px #15DB95,
-        0 0 19px #15DB95,
-        0 0 40px #0fa,
-        0 0 80px #0fa,
-        0 0 90px #0fa,
-        0 0 100px #0fa,
-        0 0 150px #0fa;
-    
-    }
-    
-    20%, 24%, 55% {        
-        text-shadow: none;
-    }    
-  }
-  
-.project img{
-    height: 100%;
-    width: 60%;
-    transition: all 0.5s ease-in-out;
-    border-radius: 10px;
-    cursor: pointer;
-    z-index: 2;
-    object-fit: cover;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
-}
-
-.project img:hover{
-    filter: grayscale(0%);
-    filter: gray;
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    transition: 1s ease;
-}
-
-.project-tools{
-    display: flex;
-    gap: 1.5rem;
-    color: #E4C580;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.project-link{
-    color: #51FCA3;
-    border: 1px solid #51FCA3;
-    width: fit-content;
-    border-radius: 5px;
-    padding: 0.5rem 1.5rem;
-    transition: 0.4s ease-out;
-    cursor: pointer;
-}
-
-.project-link:hover{
-    background-color: #51fca4a4;
-    color: #FBFFFD;
 }
 
 .work-back{
@@ -197,14 +56,7 @@
     right: 5%;
     top: 25%;
 }
-.project-links{
-    display: flex;
-    gap: 1rem;
-}
-.git{
-    background-color: #15DB95;
-    color: white;
-}
+
 
 @media screen and (min-width: 2500px) {
     .projects {
@@ -223,34 +75,9 @@
     }
 }
 
-
-@media screen and (max-width: 950px){
-    .project-des{
-        max-width: 80%;
-    }
-}
-
 @media screen and (max-width: 850px){
     .projects h3{
         font-size: 1rem;
-    }
-    .projects-intro{
-        font-size: 1.5rem;
-    }
-    .project-des{
-        max-width: 100%;
-        line-height: 1.7;
-        font-weight: 600;
-    }
-    .project img{
-        width: 100%;
-        filter: grayscale(50%);
-        object-fit: cover;
-    }
-    .project-contents,
-    .project-contents-rev{
-        padding: 1rem;
-        z-index: 5;
     }
 }
 
@@ -259,47 +86,13 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .project-link{
-        padding: 1rem 2rem;
-    }
-    .project-contents,
-    .project-contents-rev{
-        position:relative;
-        background-color: #011a0dbb;
-        border-radius: 10px;
-        gap: 2rem;
-        width: 100%;
-    }
-
-    .project-img{
-        position: absolute;
-    }
-
-    .projects-intro{
-        margin: 2rem auto;
-    }
-
-    .project-des{
-        background-color: transparent;
-        color: white;
-        line-height: 1.8;
-        font-weight: 400;
-        padding-left: 0;
-    }
-    .project-tools{
-        color: white;
-        flex-wrap: wrap;
-    }
-    .project-tools li{
-        background-color: black;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
+    
     .projects h3{
         font-size: 1.8rem;
         margin: 0 0 2rem 0;
         padding-bottom: 0;
     }
+    
     .projects h3:hover::after{
         display: none;
     }
