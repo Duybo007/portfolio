@@ -34,7 +34,8 @@ function Hero() {
                 <Cursor cursorColor='#15DB95' /> 
             </h3>
             <p className='p__opensans des'>
-                Front-end developer who cares deeply about user experience. Serious passion for creating user-friendly, visually appealing websites and applications.</p>
+            I am an artist of the digital canvas, weaving creativity and code into captivating web experiences that leave a lasting impact. With an unwavering commitment to innovation and user-centric design, I bring imagination to life, one line of code at a time.</p>
+            <a href='#projects' className='btn-work'>Check out my work!</a>
         </motion.div>
         <div class="lines">
             <div class="line"></div>
