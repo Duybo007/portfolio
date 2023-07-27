@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectCard.scss'
 import { motion } from "framer-motion";
 
-function ProjectCard({title, description, tools, webLink, gitLink, img, position}) {
+function ProjectCard({title, description, tools, webLink, gitLink, img, position, work}) {
   return (
     <motion.div
     initial={position === "left" ? {x:-200, opacity: 0} : {x:200, opacity: 0}}
@@ -33,7 +33,7 @@ function ProjectCard({title, description, tools, webLink, gitLink, img, position
             target="_blank"
             href={gitLink}
             className='link git'>
-              GitHub
+              {work ? "App" : "GitHub"}
             </a>
         </div>
       </div>

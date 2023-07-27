@@ -28,7 +28,7 @@ function Navbar() {
         <ul className='navbar-links'>
             <li className='p__opensans'><a href='#about'>/ / About</a></li>
             {/* <li className='p__opensans'><a href='#skills'>/ / Experience</a></li> */}
-            <li className='p__opensans'><a href='#projects'>/ / Projects</a></li>
+            <li className='p__opensans'><a href='#projects'>/ / Experience</a></li>
             <li className='p__opensans'><a href='#contact'>/ / Contact</a></li>
             <li className='p__opensans resume'><a target="_blank" href='https://drive.google.com/file/d/17CU0lmAISTHFzPWE9KJs8SL0a3Yj6j1L/view?usp=sharing'>Resume</a></li>
         </ul>
@@ -38,7 +38,7 @@ function Navbar() {
             <ul className='links-small'>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#about">About</a></li>
                 {/* <li onClick={()=>setActive(false)} className='p__opensans'><a href="#skills">Experience</a></li> */}
-                <li onClick={()=>setActive(false)} className='p__opensans'><a href="#projects">Projects</a></li>
+                <li onClick={()=>setActive(false)} className='p__opensans'><a href="#projects">Experience</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a href="#contact">Contact</a></li>
                 <li onClick={()=>setActive(false)} className='p__opensans'><a target="_blank" href="https://drive.google.com/file/d/17CU0lmAISTHFzPWE9KJs8SL0a3Yj6j1L/view?usp=sharing">Resume</a></li>
             </ul>

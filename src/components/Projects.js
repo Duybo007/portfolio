@@ -15,6 +15,17 @@ function Projects() {
         <h3>/ /Some Things I’ve Built.</h3>
 
             <ProjectCard 
+                title={"SaaS Web Application"}
+                description={"Streamline scheduling and appointments, manage clients, services, and agenda online. Share availability, allow 24/7 client bookings, and optimize your time effortlessly. No more manual bookings!"}
+                tools={[{name:"Angular"}, {name:"MongoDB"}, {name :"Express"}, {name: "Docker"}]}
+                webLink={"https://rezrva.com/"}
+                gitLink={"https://app.rezrva.com/login"}
+                img={"/saas.png"}
+                work={true}
+                position={"right"}
+            />
+
+            <ProjectCard 
                 title={"Netflix Clone"}
                 description={"A Netflix clone website is a streaming platform that offers a similar user experience and content selection as Netflix. Users can sign up for an account, browse and find movies and TV shows, and create personal watchlists."}
                 tools={[{name:"React"}, {name:"Firebase"}, {name :"TMDB API"}, {name :"Vercel"}]}
