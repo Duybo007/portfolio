@@ -20,7 +20,7 @@ function About() {
                     I <span>Design</span> & <span>Develop</span> for the Web. 
                     My name is Duy, and I'm deeply passionate about crafting captivating creations on the web. I discovered my love for web development when I began coding and realized the immense power of HTML and CSS, even in simple tasks like creating a custom reblog button. This inspired me to delve deeper into the world of web development.
                 </p>
-                <p>Since then, I've been on an exhilarating journey, contributing my skills to a dynamic startup environment. Currently, at <span><a target="_blank" href='https://rezrva.com/'>Rezrva</a></span>, my focus is on developing inclusive products and immersive digital experiences. Every day, I seize the opportunity to expand my knowledge and evolve in this ever-changing field.
+                <p>Since then, I've been on an exhilarating journey, contributing my skills to <span>a dynamic startup environment</span>. Currently, at <span><a target="_blank" href='https://rezrva.com/'>Rezrva</a></span>, my focus is on developing inclusive products and immersive digital experiences. Every day, I seize the opportunity to expand my knowledge and evolve in this ever-changing field.
                 </p>
                 <p>Here are a few technologies I’ve been working with recently:</p>
                 <div className='contents-list'>

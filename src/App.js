@@ -21,9 +21,9 @@ function App() {
         <About/>
       </section>
 
-      {/* <section id='skills'>
+      <section id='skills'>
         <Skills/>
-      </section> */}
+      </section>
 
       <section id='projects'>
         <Projects/>

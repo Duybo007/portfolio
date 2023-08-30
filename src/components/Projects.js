@@ -15,13 +15,13 @@ function Projects() {
         <h3>/ /Some Things I’ve Built.</h3>
 
             <ProjectCard 
-                title={"SaaS Web Application"}
-                description={"Streamline scheduling and appointments, manage clients, services, and agenda online. Share availability, allow 24/7 client bookings, and optimize your time effortlessly. No more manual bookings!"}
-                tools={[{name:"Angular"}, {name:"MongoDB"}, {name :"Express"}, {name: "Docker"}]}
-                webLink={"https://rezrva.com/"}
-                gitLink={"https://app.rezrva.com/login"}
-                img={"/saas.png"}
-                work={true}
+                title={"AI Chatbot"}
+                description={"Explore a world of endless conversations with our diverse array of AI bots. Whether you're seeking practical assistance, engaging in friendly banter, or delving into the imaginative realm of fictional characters, our platform has it all. Connect with real people, unleash your creativity, or simply find the perfect chat partner for any occasion."}
+                tools={[{name:"Next.js 13"}, {name:"Prisma"}, {name :"OpenAI"}, {name: "Stripe"}, {name:"Tailwind"}]}
+                webLink={"https://ai-companion-eta.vercel.app/"}
+                gitLink={"https://github.com/Duybo007/ai-companion"}
+                img={"/ai.png"}
+                // work={true}
                 position={"right"}
             />
 
