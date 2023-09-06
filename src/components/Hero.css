@@ -3,6 +3,7 @@
     width: 100vw;
     display: flex;
     margin: 3rem auto;
+    padding: 0 2rem;
     position: relative;
     background: rgb(2,0,36);
     font-family: 'Titillium Web', sans-serif;
@@ -124,9 +125,6 @@
     .hero{
         flex-direction: column;
         margin-top: 4rem;
-    }
-    .intro{
-        padding: 0 2rem;
     }
 
     .intro h2{

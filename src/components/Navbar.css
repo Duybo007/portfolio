@@ -88,6 +88,7 @@
 @media screen and (min-width: 2500px){
     .navbar{
         height: 85px;
+        padding: 4rem;
     }
     .navbar-logo img{
         width: 80px;

@@ -140,6 +140,16 @@
         justify-content: flex-end;
     }
 
+    @media screen and (min-width: 2500px){
+        .project-des-left, .project-des-right {
+            font-size: 25px;
+        }
+
+        .links{
+            font-size: 25px;
+        }
+    }
+
     @media screen and (max-width: 850px){
         .project-contents-left, .project-contents-right{
             position:relative;
